@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <fieldset>
+          <legend>Your Address</legend>
+        <div>
+            <label for="firstName">First Name</label>
+            <input type="text" id="First Name" placeholder="" required>
+        </div>
+        <div>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="Last Name" placeholder="" required>
+        </div>
+        <div>
+            <label for="Street">Street</label>
+            <input type="text" id="Street" placeholder="" required>
+        </div>
+        <div>
+            <label for="City">City</label>
+            <input type="text" id="City" placeholder="" required>
+        </div>
+        </fieldset>
+        </form>
+
+<div>   
+    <form action="/action_page.php">
+        <fieldset>
+          <legend>Additonal Details</legend>
+<!--TEXT AREA-->
+        <div>
+        <label for="Bibliography">Bibliography</label>
+        <textarea name="Bibliography" id="Bibliography" cols="20" rows="5" 
+        placeholder="enter a message" required maxlength="200"> </textarea>
+
+    <p>  
+        <div>
+        <label for="Image">Image</label>
+        <form action="/action_page.php">
+            <input type="file" id="File">
+            <input type="submit">
+
+    </p>
+<!--SELECT TAG-->
+<div>
+    <p>
+        <form name="form1" id="form1" action="/action_page.php">
+            <label for="Age Group">Age Group</label>
+            <form name="form1" id="form1" action="/action_page.php">
+                <select name="subject" id="subject">
+                  <option value="" selected="selected">30 to 39 years</option>
+                  <option value="" selected="selected">20 to 29 years</option>
+                  <option value="" selected="selected">10 to 19 years</option>
+                  <option value="" selected="selected">0 to 9 years</option>
+                  </select>          
+                </div>
+            </fieldset>
+       </form>
+    </div>
+
+</div>
+<div>   
+    <form action="/action_page.php">
+        <fieldset>
+          <legend>Interest</legend>
+        <label for="Hobbies">Hobbies
+        <select name="Hobbies" multiple size="4">
+            <option value="Playing Soccer">Playing Soccer</option>
+            <option value="Dancing">Dancing</option>
+            <option value="Gardening">Gardening</option>
+            <option value="Watching movies">Watching Movies </option>
+        </select>
+<!--SELECT TAG-->
+<div>
+        <label for=" Favorite car">Favorite Car:
+        <select id="cars" name="cars">
+
+  <option value="volvo">Volvo</option>
+  <option value="saab">Mercedes</option>
+  <option value="fiat">Tesla</option>
+  <option value="audi">BMW</option>
+</select>
+<div>
+
+        <label for="Favorite Pulic Transport">Favorite Public Transport</label>
+        <select name="Favorite Public Transport" multiple size="5">
+            
+            
+            <optgroup label="Ground">
+                <option value="Train">Train </option>
+                <option value="Bus">Bus</option>
+            <optgroup label="Water">
+                <option value="Boat">Boat </option>
+            </optgroup>
+        </select>          
+    </div>
+</fieldset>
+</form>
+</div>
+    </body>
+</html>
+
